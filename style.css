@@ -73,6 +73,9 @@ button
 {
     background-color: #3882f6;
     color: white;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
 }
 .content
 {
@@ -83,6 +86,26 @@ button
  {
  display: flex;
  justify-content: center;
- align-items: center;
- flex-direction: column;
+     flex-direction: column;
+ width: 50%;
  }
+
+ .content-left
+ {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
+ }
+
+ img
+ {
+    margin: 50px;
+ }
+ 
+.p-first
+{
+    font-size: 18px;
+    color:#e5e7eb
+}
